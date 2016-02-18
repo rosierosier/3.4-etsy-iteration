@@ -112,17 +112,17 @@ console.log(lotsOfMaterials);
 
 
 //trying an array.filter() for the sake of the assigment on this same question
-// var itemsWithMaterials = []
-//   var manyMaterials = items.filter(function(value, index, array){
-//     return array[index].materials.length >= 8;
-//     // if (array[index].materials.length >= 8){
-//     //   return true;
-//     // } else {
-//     //   return false;
-//     // }
-//   });
-//
-//   console.log(manyMaterials);
+var itemsWithMaterials = []
+  var manyMaterials = items.filter(function(value, index, array){
+    return array[index].materials.length >= 8;
+    // if (array[index].materials.length >= 8){
+    //   return true;
+    // } else {
+    //   return false;
+    // }
+  });
+
+  console.log(manyMaterials);
 
 
 
